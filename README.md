@@ -54,7 +54,7 @@ Threshold: **τ = 0.75**
 ---
 
 ### F1 Score Comparison
-![F1 Score](https://f1score.png)
+![F1 Score]([https://f1score.png](https://github.com/ccaug/Modernbert-IDS-OOD-RAG/blob/main/f1score.png)
 
 Comparison across models for known accuracy and unknown detection.
 
