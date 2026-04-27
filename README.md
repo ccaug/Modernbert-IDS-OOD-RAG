@@ -43,7 +43,7 @@ Confusion matrix for known attack classification using the finetuned ModernBERT 
 ---
 
 ### Prototype Similarity Distribution
-![Similarity Distribution](https://distributionscore.png)
+![Similarity Distribution]([https://distributionscore.png](https://github.com/ccaug/Modernbert-IDS-OOD-RAG/blob/main/distributionscore.png)
 
 Clear separation between:
 - Known samples: μ = 0.957, σ = 0.019  
