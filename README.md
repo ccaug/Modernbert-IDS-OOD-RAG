@@ -61,25 +61,7 @@ Comparison across models for known accuracy and unknown detection.
 ---
 
 ## Architecture
-flowchart TD
-    A[Input Log] --> B[ModernBERT]
-    B --> C[Embedding Vector<br/>768-dim]
-    
-    C --> D[Prototype Similarity]
-    C --> E[FAISS Retrieval<br/>k=30]
-    
-    D --> F[Global Match]
-    E --> G[Local Consistency]
-    
-    G --> H[Uncertainty<br/>Estimation]
-    
-    F --> I[Decision Fusion<br/>Rule-based Logic]
-    H --> I
-    
-    I --> J{Known?}
-    J -->|Yes| K[Known Class]
-    J -->|No| L[UNKNOWN_ATTACK]
-
+![F1 Score]([https://f1score.png]([https://github.com/ccaug/Modernbert-IDS-OOD-RAG/blob/main/f1score.png](https://github.com/ccaug/Modernbert-IDS-OOD-RAG/blob/main/architecture.png)
 
 ---
 
