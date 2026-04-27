@@ -36,7 +36,7 @@ Unlike traditional IDS systems that assume all attack types are known during tra
 ## Performance Visualizations
 
 ### Known Attack Confusion Matrix
-![Confusion Matrix](https://confusion_matrix_known%2520-%2520copia.png)
+![Confusion Matrix]([https://confusion_matrix_known%2520-%2520copia.png](https://github.com/ccaug/Modernbert-IDS-OOD-RAG/blob/main/confusion_matrix_known.png)
 
 Confusion matrix for known attack classification using the finetuned ModernBERT model.
 
